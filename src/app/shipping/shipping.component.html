@@ -1,6 +1,6 @@
-<h3> Shipping prices</h3>
+<h3>Truck money</h3>
 
 <div class="cart-item" *ngFor="let shipping of shippingCosts | async">
-  <span> {{ shipping.type }} </span>
-  <span> {{ shipping.price | currency}}</span>
+    <span> {{ shipping.type }} </span>
+    <span> {{ shipping.price | currency}}</span>
 </div>
